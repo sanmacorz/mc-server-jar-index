@@ -1,4 +1,4 @@
-# Minecraft Ultimate Server Index
+# Minecraft Server Jar Index
 Mirrored Official Mojang + Omniarchive Fallbacks
 
 _Generated automatically. Not all versions include official server jars._
