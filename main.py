@@ -18,25 +18,14 @@ except requests.RequestException as e:
 except ValueError as e:
     raise SystemExit("Failed to parse Mojang version manifest JSON") from e
 
-try:
-    omni_resp = session.get("https://meta.omniarchive.uk/v1/manifest.json")
-    omni_resp.raise_for_status()
-    omni_data = omni_resp.json()
-except requests.RequestException as e:
-    raise SystemExit(f"Failed to fetch Omniarchive manifest: {e}") from e
-except ValueError as e:
-    raise SystemExit("Failed to parse Omniarchive manifest JSON") from e
-# Create a lookup map for Omniarchive versions
-omni_map = {v["id"]: v["url"] for v in omni_data["versions"]}
-
 markdown_lines = [
     "# Minecraft Ultimate Server Index",
-    "Mirrored Official Mojang + Omniarchive Fallbacks",
+    "Mirrored Official Mojang",
     "",
     "_Generated automatically. Not all versions include official server jars._",
     "",
-    "| Version | Type | SHA-1 Hash (Official) | Official Jar | Omniarchive Mirror |",
-    "| :--- | :--- | :--- | :--- | :--- |",
+    "| Version | Type | SHA-1 Hash (Official) | Official Jar |",
+    "| :--- | :--- | :--- | :--- |",
 ]
 
 PLACEHOLDER = "*N/A*"
@@ -70,24 +59,6 @@ for index, version in enumerate(all_versions):
             official_hash = f"`{server_info['sha1']}`"
     except (requests.RequestException, ValueError):
         pass
-
-    # Check Omniarchive Mirror Data
-    if version["id"] in omni_map:
-        try:
-            resp = session.get(omni_map[version["id"]], timeout=TIMEOUT)
-            resp.raise_for_status()
-            o_v_data = resp.json()
-
-            o_server = o_v_data.get("downloads", {}).get("server")
-            if o_server:
-                omni_link = f"[Mirror]({o_server['url']})"
-        except (requests.RequestException, ValueError):
-            pass
-
-        print(
-            f"[{index + 1}/{total}] Synced {version['id']} (Omniarchive)"
-        )  # Progress output
-        time.sleep(0.1)  # Small sleep to be polite to the APIs
 
     # Add row to the list
     markdown_lines.append(
