@@ -1,5 +1,8 @@
 name: Update Minecraft Index
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 0 * * *" # Runs every day at midnight
@@ -29,4 +32,4 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add README.md
           git commit -m "Auto-update Minecraft Index" || echo "No changes to commit"
-          git push || { echo "Push failed"; exit 1; }
+          git push origin HEAD:${{ github.event.repository.default_branch }}

@@ -41,7 +41,6 @@ for index, version in enumerate(all_versions):
     # Initialize placeholders
     official_link = PLACEHOLDER
     official_hash = PLACEHOLDER
-    omni_link = PLACEHOLDER
 
     # Check Mojang Official Data
     try:
@@ -62,14 +61,14 @@ for index, version in enumerate(all_versions):
 
     # Add row to the list
     markdown_lines.append(
-        f"| {version['id']} | {version['type']} | {official_hash} | {official_link} | {omni_link} |"
+        f"| {version['id']} | {version['type']} | {official_hash} | {official_link} |"
     )
 
     print(f"[{index + 1}/{total}] Synced {version['id']} (Official)")  # Progress output
     time.sleep(0.1)  # Small sleep to be polite to the APIs
 
 # Save to file
-with open("minecraft-server-index.md", "w") as f:
+with open("README.md", "w") as f:
     f.write("\n".join(markdown_lines))
 
-print("\nDone! Full mirrored index saved to 'minecraft-server-index.md'")
+print("\nDone! Full mirrored index saved to 'README.md'")
