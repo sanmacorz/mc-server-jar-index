@@ -5,6 +5,7 @@ _Generated automatically. Not all versions include official server jars._
 
 | Version | Type | SHA-1 Hash (Official) | Official Jar |
 | :--- | :--- | :--- | :--- |
+| 26.4-snapshot-3 | snapshot | `2d89c95c030e635387448f332961074ce1adbb4b` | [Download](https://piston-data.mojang.com/v1/objects/2d89c95c030e635387448f332961074ce1adbb4b/server.jar) |
 | 26.4-snapshot-2 | snapshot | `e6cac6e2fa35d5847e60dede721ec75f7a28c34d` | [Download](https://piston-data.mojang.com/v1/objects/e6cac6e2fa35d5847e60dede721ec75f7a28c34d/server.jar) |
 | 26.4-snapshot-1 | snapshot | `1c5ef8ced87763278a406812e7f0932384c3bb44` | [Download](https://piston-data.mojang.com/v1/objects/1c5ef8ced87763278a406812e7f0932384c3bb44/server.jar) |
 | 26.3 | release | `33680f5f2ac32864d6d7cf5e56a705fdb3e05f4c` | [Download](https://piston-data.mojang.com/v1/objects/33680f5f2ac32864d6d7cf5e56a705fdb3e05f4c/server.jar) |
