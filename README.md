@@ -5,6 +5,7 @@ _Generated automatically. Not all versions include official server jars._
 
 | Version | Type | SHA-1 Hash (Official) | Official Jar |
 | :--- | :--- | :--- | :--- |
+| 26.4-snapshot-8 | snapshot | `5c4d729eca710d0a83b2d54a2cc94216b568385c` | [Download](https://piston-data.mojang.com/v1/objects/5c4d729eca710d0a83b2d54a2cc94216b568385c/server.jar) |
 | 26.4-snapshot-7 | snapshot | `0870c02432ef2391ba7c586c3e113e98406aea20` | [Download](https://piston-data.mojang.com/v1/objects/0870c02432ef2391ba7c586c3e113e98406aea20/server.jar) |
 | 26.4-snapshot-6 | snapshot | `a022ed5cfa7e7f8a52c91b21ecf5a976b5a516f9` | [Download](https://piston-data.mojang.com/v1/objects/a022ed5cfa7e7f8a52c91b21ecf5a976b5a516f9/server.jar) |
 | 26.4-snapshot-5 | snapshot | `ed041232700614aeaaf72a6ea88b7f58ca3f8e4a` | [Download](https://piston-data.mojang.com/v1/objects/ed041232700614aeaaf72a6ea88b7f58ca3f8e4a/server.jar) |
@@ -819,8 +820,8 @@ _Generated automatically. Not all versions include official server jars._
 | 13w38b | snapshot | `82588f79a6a61c4c4289a9dc60b7b7b3fedaead9` | [Download](https://launcher.mojang.com/v1/objects/82588f79a6a61c4c4289a9dc60b7b7b3fedaead9/server.jar) |
 | 13w38a | snapshot | `627585cdb9386e7f05cdfb8f092e5a303d4fd5f3` | [Download](https://launcher.mojang.com/v1/objects/627585cdb9386e7f05cdfb8f092e5a303d4fd5f3/server.jar) |
 | 1.6.4 | release | `050f93c1f3fe9e2052398f7bd6aca10c63d64a87` | [Download](https://launcher.mojang.com/v1/objects/050f93c1f3fe9e2052398f7bd6aca10c63d64a87/server.jar) |
-| 1.6.3 | snapshot | `5a4c69bdf7c4a9aa9580096805d8497ba7721e05` | [Download](https://launcher.mojang.com/v1/objects/5a4c69bdf7c4a9aa9580096805d8497ba7721e05/server.jar) |
 | 13w37b | snapshot | `f6322a6791bbeabac94cbaa1cf9b779ad88b120f` | [Download](https://launcher.mojang.com/v1/objects/f6322a6791bbeabac94cbaa1cf9b779ad88b120f/server.jar) |
+| 1.6.3 | snapshot | `5a4c69bdf7c4a9aa9580096805d8497ba7721e05` | [Download](https://launcher.mojang.com/v1/objects/5a4c69bdf7c4a9aa9580096805d8497ba7721e05/server.jar) |
 | 13w37a | snapshot | `c3d3d936394b35f20b871b140f5a8e6079822e51` | [Download](https://launcher.mojang.com/v1/objects/c3d3d936394b35f20b871b140f5a8e6079822e51/server.jar) |
 | 13w36b | snapshot | `2b6cdcd2df82ca8f04c1c2c7d77faf4cd25151ea` | [Download](https://launcher.mojang.com/v1/objects/2b6cdcd2df82ca8f04c1c2c7d77faf4cd25151ea/server.jar) |
 | 13w36a | snapshot | `8453f031175bac1a92db000befd14f70c8df8fb7` | [Download](https://launcher.mojang.com/v1/objects/8453f031175bac1a92db000befd14f70c8df8fb7/server.jar) |
