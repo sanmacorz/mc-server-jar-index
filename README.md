@@ -852,8 +852,8 @@ _Generated automatically. Not all versions include official server jars._
 | 1.5.1 | release | `d07c71ee2767dabb79fb32dad8162e1b854d5324` | [Download](https://launcher.mojang.com/v1/objects/d07c71ee2767dabb79fb32dad8162e1b854d5324/server.jar) |
 | 1.5 | snapshot | `aedad5159ef56d69c5bcf77ed141f53430af43c3` | [Download](https://launcher.mojang.com/v1/objects/aedad5159ef56d69c5bcf77ed141f53430af43c3/server.jar) |
 | 1.4.7 | release | `2f0ec8efddd2f2c674c77be9ddb370b727dec676` | [Download](https://launcher.mojang.com/v1/objects/2f0ec8efddd2f2c674c77be9ddb370b727dec676/server.jar) |
-| 1.4.5 | release | `c12fd88a8233d2c517dbc8196ba2ae855f4d36ea` | [Download](https://launcher.mojang.com/v1/objects/c12fd88a8233d2c517dbc8196ba2ae855f4d36ea/server.jar) |
 | 1.4.6 | release | `a0aeb5709af5f2c3058c1cf0dc6b110a7a61278c` | [Download](https://launcher.mojang.com/v1/objects/a0aeb5709af5f2c3058c1cf0dc6b110a7a61278c/server.jar) |
+| 1.4.5 | release | `c12fd88a8233d2c517dbc8196ba2ae855f4d36ea` | [Download](https://launcher.mojang.com/v1/objects/c12fd88a8233d2c517dbc8196ba2ae855f4d36ea/server.jar) |
 | 1.4.4 | release | `4215dcadb706508bf9d6d64209a0080b9cee9e71` | [Download](https://launcher.mojang.com/v1/objects/4215dcadb706508bf9d6d64209a0080b9cee9e71/server.jar) |
 | 1.4.3 | snapshot | `9be68adf6e80721975df12f2445fa24617328d18` | [Download](https://launcher.mojang.com/v1/objects/9be68adf6e80721975df12f2445fa24617328d18/server.jar) |
 | 1.4.2 | release | `5be700523a729bb78ef99206fb480a63dcd09825` | [Download](https://launcher.mojang.com/v1/objects/5be700523a729bb78ef99206fb480a63dcd09825/server.jar) |
